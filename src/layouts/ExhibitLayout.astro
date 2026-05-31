@@ -1,0 +1,100 @@
+---
+const { title, author } = Astro.props.frontmatter ?? Astro.props;
+---
+
+<!-- ! DISCLAIMER: This layout is VIBE CODED and will be REPLACED by the actual layout --><!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title} — CSARCH2 Virtual Exhibit</title>
+    <style>
+      :root {
+        --accent: #2563eb;
+        --bg: #f8fafc;
+        --surface: #ffffff;
+        --text: #1e293b;
+        --muted: #64748b;
+        --border: #e2e8f0;
+        --radius: 8px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family:
+          system-ui,
+          -apple-system,
+          sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.7;
+      }
+
+      header {
+        background: var(--accent);
+        color: #fff;
+        padding: 1rem 2rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      header span {
+        font-size: 0.85rem;
+        opacity: 0.8;
+      }
+
+      main {
+        max-width: 860px;
+        margin: 2.5rem auto;
+        padding: 0 1.5rem;
+      }
+
+      /* MDX prose */
+      main h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+      }
+      main h2 {
+        font-size: 1.5rem;
+        margin: 2rem 0 0.75rem;
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 0.25rem;
+      }
+      main h3 {
+        font-size: 1.2rem;
+        margin: 1.5rem 0 0.5rem;
+      }
+      main p {
+        margin-bottom: 1rem;
+        color: #334155;
+      }
+
+      footer {
+        text-align: center;
+        padding: 2rem;
+        font-size: 0.8rem;
+        color: var(--muted);
+        border-top: 1px solid var(--border);
+        margin-top: 4rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <strong>{title}</strong>
+      <span>by {author}</span>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      CSARCH2 Virtual Exhibit &mdash; Computer Architecture is Forever
+    </footer>
+  </body>
+</html>

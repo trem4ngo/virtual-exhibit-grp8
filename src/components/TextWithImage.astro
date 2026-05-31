@@ -1,0 +1,110 @@
+---
+/**
+ * TextWithImage.astro
+ *
+ * Renders a text block (with Markdown support) on the left and an image on the right.
+ *
+ * Props:
+ *   - heading      (string)  – Optional section heading (plain text)
+ *   - body         (string)  – Body content; parsed as Markdown
+ *   - imageSrc     (string)  – Image URL or path (required)
+ *   - imageAlt     (string)  – Alt text for the image (required)
+ *   - imageCaption (string)  – Optional caption below the image (Markdown)
+ *   - reverse      (boolean) – If true, flips to image-left / text-right
+ */
+
+import { marked } from "marked";
+
+interface Props {
+  heading?: string;
+  body: string;
+  imageSrc: string;
+  imageAlt: string;
+  imageCaption?: string;
+  reverse?: boolean;
+}
+
+const {
+  heading,
+  body,
+  imageSrc,
+  imageAlt,
+  imageCaption,
+  reverse = false,
+} = Astro.props;
+
+// marked.parse() is synchronous when given a string with no async extensions
+const bodyHtml = marked.parse(body);
+const captionHtml = imageCaption ? marked.parseInline(imageCaption) : null;
+---
+
+<section class:list={["twi", { "twi--reverse": reverse }]}>
+  <!-- Text column -->
+  <div class="twi__text">
+    {heading && <h2 class="twi__heading">{heading}</h2>}
+    <div class="twi__body prose" set:html={bodyHtml} />
+  </div>
+
+  <!-- Image column -->
+  <figure class="twi__figure">
+    <img class="twi__image" src={imageSrc} alt={imageAlt} loading="lazy" />
+    {captionHtml && <figcaption class="twi__caption" set:html={captionHtml} />}
+  </figure>
+</section>
+
+<style>
+  /* ── Layout ─────────────────────────────────────────── */
+  .twi {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2.5rem;
+    align-items: center;
+  }
+
+  /* Reverse variant: image left, text right */
+  .twi--reverse {
+    direction: rtl;
+  }
+  .twi--reverse > * {
+    direction: ltr;
+  }
+
+  /* ── Image column ────────────────────────────────────── */
+  .twi__figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .twi__image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--twi-radius);
+    object-fit: cover;
+  }
+
+  .twi__caption {
+    font-size: 0.8rem;
+    color: var(--twi-caption-color);
+    text-align: center;
+  }
+  .twi__caption :global(a) {
+    color: var(--twi-prose-link);
+  }
+
+  @media (max-width: 640px) {
+    .twi,
+    .twi--reverse {
+      grid-template-columns: 1fr;
+      direction: ltr;
+    }
+    .twi__figure {
+      order: 1;
+    }
+    .twi__text {
+      order: 0;
+    }
+  }
+</style>
