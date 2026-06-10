@@ -26,18 +26,19 @@ This document is a guide on how to set up the template and use MDX with Astro.
 ---
 
 ## 2. Getting Started
+1. Fork the repository. In the top-right corner of the page, click the Fork button. Adjust your settings then create fork.
 
-1. Clone the repository:
+2. Clone your forked repository:
 ```
-git clone https://github.com/jrgo7/virtual-exhibit-template.git
+git clone https://github.com/jrgo7/your-forked-repository
 ```
 
-2. Install the dependencies:
+3. Install the dependencies:
 ```
 npm install
 ```
 
-3. Run the dev server:
+4. Run the dev server:
 ```
 npm run dev
 ```
