@@ -19,7 +19,7 @@ Our group's topic, under the category of 'How it Works', will be: How SSDs work.
 
 *Home Page*
 
-![Uploading Desktop.png…]()
+<img width="1920" height="1080" alt="Desktop" src="https://github.com/user-attachments/assets/b420da10-bf53-4171-bf2e-a41e66c9faa2" />
 
 *Quiz Page*
 
@@ -32,7 +32,7 @@ Our group's topic, under the category of 'How it Works', will be: How SSDs work.
 
 *Home Page*
 
-![Uploading Mobile.png…]()
+<img width="375" height="1080" alt="Mobile" src="https://github.com/user-attachments/assets/0a0977ce-b8dc-45a6-b138-abbdf3647cc3" />
 
 *Quiz Page*
 
