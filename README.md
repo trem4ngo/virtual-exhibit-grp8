@@ -15,9 +15,27 @@ Our group's topic, under the category of 'How it Works', will be: How SSDs work.
 | **Video Gallery Comparison** | For the exhibit's section on the comparisons between a SSD and an HDD, we plan to incorporate a multimedia gallery. Within this gallery, it will utilize side-by-side video comparisons to highlight the SSD's speed advantages in real-world scenarios as compared to a mechanical HDD. This will include a comparison between the respective read/write times of particularly large file transfers, the loading times of computationally demanding programs, and vice versa. These videos will be mainly sourced by our own group, with benchmark footage from external reviewers being potentially used (with the appropriate copyright citations) if our group is unable to record certain videos. |
 
 ## Tentative Style Guide Snapshot / Proposed Virtual Exhibit Design Layout:
+<img width="1920" height="1081" alt="Desktop" src="https://github.com/user-attachments/assets/b87646ff-af12-46ef-ac86-5ccdf595a4b3" />
+
+*Home Page*
+
+![Uploading Desktop.png…]()
+
+*Quiz Page*
+
 <img width="1920" height="1080" alt="Desktop" src="https://github.com/user-attachments/assets/85a47fe7-9dbf-43a3-9bd2-e1a57f1c23b1" />
 
 *Video Gallery Page*
 
 ## Mobile Responsive Layout: 
-*(Mobile layout details to be inserted here)*
+<img width="375" height="1080" alt="Mobile" src="https://github.com/user-attachments/assets/a8e2d165-1e87-443d-8209-38766b2572d0" />
+
+*Home Page*
+
+![Uploading Mobile.png…]()
+
+*Quiz Page*
+
+<img width="375" height="1080" alt="Mobile" src="https://github.com/user-attachments/assets/dbd4417d-4b76-4856-aad0-a298cf0cd08c" />
+
+*Video Gallery Page*
