@@ -14,7 +14,8 @@ Our group's topic, under the category of 'How it Works', will be: How SSDs work.
 | **Multiple-choice quiz** | The exhibit will feature a multiple-choice quiz coded with React components (tentative) that will only come into view (i.e: client:visible, placed at the end of the exhibit's page) once the user is finished scrolling/reading through the exhibit itself. [cite: 8] [cite_start]The quiz will test the user's knowledge in regards to how SSDs work and will show the user's total understanding of the topic in the form of a final score that will appear after the user has finished taking the quiz. Additionally, we plan to add a feature in the form of a highlighted inline explanation that will explain the user's mistake should they choose the wrong answer. 
 | **Video Gallery Comparison** | For the exhibit's section on the comparisons between a SSD and an HDD, we plan to incorporate a multimedia gallery. Within this gallery, it will utilize side-by-side video comparisons to highlight the SSD's speed advantages in real-world scenarios as compared to a mechanical HDD. This will include a comparison between the respective read/write times of particularly large file transfers, the loading times of computationally demanding programs, and vice versa. These videos will be mainly sourced by our own group, with benchmark footage from external reviewers being potentially used (with the appropriate copyright citations) if our group is unable to record certain videos. |
 
-## Tentative Style Guide Snapshot / Proposed Virtual Exhibit Design Layout: 
+## Tentative Style Guide Snapshot / Proposed Virtual Exhibit Design Layout:
+<img width="1920" height="1080" alt="Desktop" src="https://github.com/user-attachments/assets/85a47fe7-9dbf-43a3-9bd2-e1a57f1c23b1" />
 *(Image/Layout snapshot to be inserted here)*
 
 ## Mobile Responsive Layout: 
