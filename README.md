@@ -16,6 +16,7 @@ Our group's topic, under the category of 'How it Works', will be: How SSDs work.
 
 ## Tentative Style Guide Snapshot / Proposed Virtual Exhibit Design Layout:
 <img width="1920" height="1080" alt="Desktop" src="https://github.com/user-attachments/assets/85a47fe7-9dbf-43a3-9bd2-e1a57f1c23b1" />
+*Video Gallery Page*
 *(Image/Layout snapshot to be inserted here)*
 
 ## Mobile Responsive Layout: 
