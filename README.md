@@ -1,6 +1,41 @@
 # A CSARCH2 Proposal 
 
-**By Group 8 of S40:** Dela Cruz, Ramos, Tengco, Vicencio, Willie 
+**By Group 8 of S40:** Dela Cruz, Ramos, Tengco, Vicencio, Willie
+Website Link: http://localhost:4321/virtual-exhibit-grp8/
+
+## CREATIVE DEVELOPMENT
+
+### Mid-Milestone Submission Progress:
+
+| Phase | Description |
+| :--- | :--- |
+| **Refactoring** | - **Initial Refactoring:** removed files such as the Linux distro exhibit page, components, and image assets as they’re remnants from the template and are thus unneeded.<br>- **SSD Quiz refactoring:** instead of having the quiz be embedded within the main exhibit page, it will be moved to its own separate page where it will be presented as a single-page form with name fields.
+| **Features** | - **SSD vs HDD React Component:** Implemented an interactive SSD vs HDD comparison component using React. Utilizes component states and timers to animate the difference between the speeds of an SSD and an HDD fetching data, using their respective real-world speed ratio.<br>- **Multiple-Choice SSD Quiz:** Implemented a multiple-choice quiz on how SSDs work, where the viewer visits a different page dedicated to the quiz itself and is presented with multiple choice questions. Upon answering and submitting, the page will show the correct answers (if and when the viewer makes a mistake), as well as the viewer’s score at the top of the page. Utilizes several React concepts including state management (to track user input, chosen answers, and whether or not they have submitted, conditional rendering, immutability, and more.<br>- **Main Exhibit Page:** Implemented the main exhibit page, which contains the previous two React components, as well as the bulk of the explanations that the viewer will have to read through. This also serves as the homepage as well.
+| **Fixes** | - **URL config:** Fixed the astro config file to correctly link to the group’s github.<br>- **Empty Table of Contents:** Fixed the empty Table of Contents in the SSD quiz page.<br>- **Missing Borders:** added the missing black borders to the first/last name input fields in the SSD page to make them more readable amidst the white background. |
+
+### Final Submission Progress:
+
+TBD
+
+## CONCEPTS LEARNED
+
+### Mid-Milestone Concepts:
+- Learned how to utilize and navigate Astro, which utilized similar concepts to JavaScript, making it easier to adapt to using this framework.
+- Learned how to make and integrate React components into the webpage. Since React is based on JavaScript, it was easy for us to build React components such as the multiple-choice quiz and the interactive SSD vs HDD component, as the syntax remains relatively the same.
+
+### Final Submission Concepts:
+
+TBD
+
+## CHALLENGES
+
+### Mid-Milestone Submission Challenges:
+- One challenge that our group faced was getting used to a new language and coding with different components in mind. Doing a new coding project with new libraries and new conventions will always be a challenge at the start, thankfully as we got through the project, we became familiar with this new environment. Also, we are thankful that we were taught different languages in previous courses. It really helped that we are familiar with languages that are popular and that are used by other languages as their basis. Hence, we got through this challenge fairly quickly.
+- Another challenge that our group faced was implementing our proposed website design and following through our design. Our website design is as simple as it gets, yet we were reminded that actually implementing the design in code can somewhat be tricky with the nuances of the languages. For example, somewhat of a headache, the quiz for our website was somehow embedded on our main page even though it should be its own separate page. We were able to fix this problem by creating the quiz page’s markdown file.
+
+### Final Submission Challenges:
+
+TBD
 
 ## TOPIC THEME:
 Our group's topic, under the category of 'How it Works', will be: How SSDs work. From this topic, the proposed exhibit will highlight the specific advantages of the Solid State Drive (SSD), by contrasting its features with a mechanical Hard Disk Drive. In addition, the proposed exhibit will cover the internal intricacies of an SSD, specifically how data is written and stored within NAND Flash memory, as well as the role of an SSD controller within an SSD's functions. 
@@ -39,39 +74,3 @@ Our group's topic, under the category of 'How it Works', will be: How SSDs work.
 <img width="375" height="1080" alt="Mobile" src="https://github.com/user-attachments/assets/dbd4417d-4b76-4856-aad0-a298cf0cd08c" />
 
 *Video Gallery Page*
-
-## CREATIVE DEVELOPMENT
-
-### Mid-Milestone Submission Progress:
-
-| Phase | Description |
-| :--- | :--- |
-| **Refactoring** | - **Initial Refactoring:** removed files such as the Linux distro exhibit page, components, and image assets as they’re remnants from the template and are thus unneeded.<br>- **SSD Quiz refactoring:** instead of having the quiz be embedded within the main exhibit page, it will be moved to its own separate page where it will be presented as a single-page form with name fields.
-| **Features** | - **SSD vs HDD React Component:** Implemented an interactive SSD vs HDD comparison component using React. Utilizes component states and timers to animate the difference between the speeds of an SSD and an HDD fetching data, using their respective real-world speed ratio.<br>- **Multiple-Choice SSD Quiz:** Implemented a multiple-choice quiz on how SSDs work, where the viewer visits a different page dedicated to the quiz itself and is presented with multiple choice questions. Upon answering and submitting, the page will show the correct answers (if and when the viewer makes a mistake), as well as the viewer’s score at the top of the page. Utilizes several React concepts including state management (to track user input, chosen answers, and whether or not they have submitted, conditional rendering, immutability, and more.<br>- **Main Exhibit Page:** Implemented the main exhibit page, which contains the previous two React components, as well as the bulk of the explanations that the viewer will have to read through. This also serves as the homepage as well.
-| **Fixes** | - **URL config:** Fixed the astro config file to correctly link to the group’s github.<br>- **Empty Table of Contents:** Fixed the empty Table of Contents in the SSD quiz page.<br>- **Missing Borders:** added the missing black borders to the first/last name input fields in the SSD page to make them more readable amidst the white background. |
-
-### Final Submission Progress:
-
-TBD
-
-## CONCEPTS LEARNED
-
-### Mid-Milestone Concepts:
-- Learned how to utilize and navigate Astro, which utilized similar concepts to JavaScript, making it easier to adapt to using this framework.
-- Learned how to make and integrate React components into the webpage. Since React is based on JavaScript, it was easy for us to build React components such as the multiple-choice quiz and the interactive SSD vs HDD component, as the syntax remains relatively the same.
-
-### Final Submission Concepts:
-
-TBD
-
-## CHALLENGES
-
-### Mid-Milestone Submission Challenges:
-- One challenge that our group faced was getting used to a new language and coding with different components in mind. Doing a new coding project with new libraries and new conventions will always be a challenge at the start, thankfully as we got through the project, we became familiar with this new environment. Also, we are thankful that we were taught different languages in previous courses. It really helped that we are familiar with languages that are popular and that are used by other languages as their basis. Hence, we got through this challenge fairly quickly.
-- Another challenge that our group faced was implementing our proposed website design and following through our design. Our website design is as simple as it gets, yet we were reminded that actually implementing the design in code can somewhat be tricky with the nuances of the languages. For example, somewhat of a headache, the quiz for our website was somehow embedded on our main page even though it should be its own separate page. We were able to fix this problem by creating the quiz page’s markdown file.
-
-### Final Submission Challenges:
-
-TBD
-
-
