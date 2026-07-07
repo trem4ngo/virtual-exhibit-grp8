@@ -31,6 +31,7 @@
  */
 
 import { useState, useEffect, useRef } from "react";
+import "../styles/component-tokens.css";
 
 const TOTAL_BLOCKS = 8;
 

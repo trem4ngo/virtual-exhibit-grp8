@@ -37,6 +37,7 @@
  */
 
 import { useState } from "react";
+import "../styles/component-tokens.css";
 
 // -- Quiz data --------------------------------------------
 // Each question has the prompt `text`, a list of `options` (exactly one marked
