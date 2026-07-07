@@ -45,6 +45,7 @@ Our group's topic, under the category of 'How it Works', will be: How SSDs work.
 ### Mid-Milestone Submission Progress:
 
 | Phase | Description |
+| :--- | :--- |
 | Refactoring | - Initial Refactoring: removed files such as the Linux distro exhibit page, components, and image assets as they’re remnants from the template and are thus unneeded.
 - SSD Quiz refactoring: instead of having the quiz be embedded within the main exhibit page, it will be moved to its own separate page where it will be presented as a single-page form with name fields.
 | Features | - SSD vs HDD React Component: Implemented an interactive SSD vs HDD comparison component using React. Utilizes component states and timers to animate the difference between the speeds of an SSD and an HDD fetching data, using their respective real-world speed ratio.
