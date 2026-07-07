@@ -1,0 +1,20 @@
+---
+layout: '../layouts/ExhibitLayout.astro'
+title: "Test Your Knowledge: How SSDs Work"
+author: "Dela Cruz; Ramos; Tengco; Vicencio; Willie"
+readingTime: "5 minutes"
+---
+
+{/* This page hosts only the quiz. The exhibit links here with a button. */}
+
+import SSDQuiz from "../components/SSDQuiz.jsx"
+
+# Test Your Knowledge
+
+Check what stuck from the exhibit. Fill in your name, pick an answer for every
+question, then press **Send** to grade the quiz and see your score with an
+explanation for each question.
+
+<SSDQuiz client:load />
+
+<p><a href={`${import.meta.env.BASE_URL}/ssd`} class="button">&larr; Back to the exhibit</a></p>

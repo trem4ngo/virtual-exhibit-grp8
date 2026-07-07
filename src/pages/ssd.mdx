@@ -8,7 +8,6 @@ readingTime: "12 minutes"
 {/* We import the interactive React components used in this exhibit. */}
 
 import SSDvsHDD from "../components/SSDvsHDD.jsx"
-import SSDQuiz from "../components/SSDQuiz.jsx"
 
 # How SSDs Work
 
@@ -107,10 +106,7 @@ similar flash, but the interface changes everything.
 You've seen how an SSD stores data in NAND flash, why it leaves the mechanical HDD
 behind, and what the controller does behind the scenes. Ready to check what stuck?
 
-<SSDQuiz client:load />
-
-*(This quiz is a custom React component. It tracks your answers in state, reveals an
-inline explanation after each question, and tallies a final score.)*
+<p><a href={`${import.meta.env.BASE_URL}/quiz`} class="button">Take the quiz &rarr;</a></p>
 
 ## References
 
