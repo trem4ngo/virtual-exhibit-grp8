@@ -47,10 +47,10 @@ Our group's topic, under the category of 'How it Works', will be: How SSDs work.
 | Phase | Description |
 | :--- | :--- |
 | **Refactoring** | - Initial Refactoring: removed files such as the Linux distro exhibit page, components, and image assets as they’re remnants from the template and are thus unneeded.
-- SSD Quiz refactoring: instead of having the quiz be embedded within the main exhibit page, it will be moved to its own separate page where it will be presented as a single-page form with name fields.
+- SSD Quiz refactoring: instead of having the quiz be embedded within the main exhibit page, it will be moved to its own separate page where it will be presented as a single-page form with name fields. |
 | **Features** | - SSD vs HDD React Component: Implemented an interactive SSD vs HDD comparison component using React. Utilizes component states and timers to animate the difference between the speeds of an SSD and an HDD fetching data, using their respective real-world speed ratio.
 - Multiple-Choice SSD Quiz: Implemented a multiple-choice quiz on how SSDs work, where the viewer visits a different page dedicated to the quiz itself and is presented with multiple choice questions. Upon answering and submitting, the page will show the correct answers (if and when the viewer makes a mistake), as well as the viewer’s score at the top of the page. Utilizes several React concepts including state management (to track user input, chosen answers, and whether or not they have submitted, conditional rendering, immutability, and more.
-- Main Exhibit Page: Implemented the main exhibit page, which contains the previous two React components, as well as the bulk of the explanations that the viewer will have to read through. This also serves as the homepage as well. 
+- Main Exhibit Page: Implemented the main exhibit page, which contains the previous two React components, as well as the bulk of the explanations that the viewer will have to read through. This also serves as the homepage as well. |
 | **Fixes** | - URL config: Fixed the astro config file to correctly link to the group’s github.
 - Empty Table of Contents: Fixed the empty Table of Contents in the SSD quiz page 
 - Missing Borders: added the missing black borders to the first/last name input fields in the SSD page to make them more readable amidst the white background. |
