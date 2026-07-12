@@ -2,7 +2,7 @@
 
 **By Group 8 of S40:** Dela Cruz, Ramos, Tengco, Vicencio, Willie
 
-Website Link: http://localhost:4321/virtual-exhibit-grp8/
+Website Link: https://trem4ngo.github.io/virtual-exhibit-grp8/
 
 ## CREATIVE DEVELOPMENT
 
