@@ -4,6 +4,21 @@
 
 Website Link: https://trem4ngo.github.io/virtual-exhibit-grp8/
 
+## AI USE DECLARATION
+We declare that we used LLMs to assist us in completing this learning activity.
+
+The specific LLM used was: Google Gemini.
+
+These LLMs assisted us in the following tasks:
+- Providing resources to use in our article.
+- Providing feedback to the contents of our article.
+
+## REFERENCES
+- Micron Technology — How SSDs Work / NAND flash overview: https://www.micron.com/about/blog
+- Kingston Technology — SSD vs HDD: What’s the Difference?: https://www.kingston.com/en/blog/pc-performance/ssd-vs-hdd
+- Crucial (Micron) — What is an SSD?: https://www.crucial.com/articles/about-ssd
+- NVM Express — About NVMe technology: https://nvmexpress.org/about/
+
 ## CREATIVE DEVELOPMENT
 
 ### Mid-Milestone Submission Progress:
@@ -18,9 +33,9 @@ Website Link: https://trem4ngo.github.io/virtual-exhibit-grp8/
 
 | Phase | Description |
 | :--- | :--- |
+| **Refactoring** | - **SSD Quiz refactoring:** instead of having two pages for our main article and quiz, we decided to have it merged into one page. This is to make it easier to navigate and less of a headache to merge with other exhibits.
+| **Features** | - **One Whole Page:** Implemented the main exhibit page, which contains the previous our article and our quiz.
 | **Documentation** | - Completed the documentation for final submission, covering the remaining progress, concepts, and challenges, and gave the README a final review to make sure everything was in order. |
-
-TBD
 
 ## CONCEPTS LEARNED
 
@@ -29,8 +44,7 @@ TBD
 - Learned how to make and integrate React components into the webpage. Since React is based on JavaScript, it was easy for us to build React components such as the multiple-choice quiz and the interactive SSD vs HDD component, as the syntax remains relatively the same.
 
 ### Final Submission Concepts:
-
-TBD
+- Learned how the astro layout automatically routes the different .mdx files in the src/pages folder.
 
 ## CHALLENGES
 
@@ -39,8 +53,7 @@ TBD
 - Another challenge that our group faced was implementing our proposed website design and following through our design. Our website design is as simple as it gets, yet we were reminded that actually implementing the design in code can somewhat be tricky with the nuances of the languages. For example, somewhat of a headache, the quiz for our website was somehow embedded on our main page even though it should be its own separate page. We were able to fix this problem by creating the quiz page’s markdown file.
 
 ### Final Submission Challenges:
-
-TBD
+- One challenge that our group faced for this final submission was merging the quiz to the main article. The challenge with this was making sure that nothing breaks with the quiz and the main article when merging the two. Thankfully the process was not too hard and nothing major broke in either of the page.
 
 ## TOPIC THEME:
 Our group's topic, under the category of 'How it Works', will be: How SSDs work. From this topic, the proposed exhibit will highlight the specific advantages of the Solid State Drive (SSD), by contrasting its features with a mechanical Hard Disk Drive. In addition, the proposed exhibit will cover the internal intricacies of an SSD, specifically how data is written and stored within NAND Flash memory, as well as the role of an SSD controller within an SSD's functions. 
