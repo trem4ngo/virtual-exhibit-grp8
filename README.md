@@ -94,5 +94,3 @@ Our group's topic, under the category of 'How it Works', will be: How SSDs work.
 *Video Gallery Page*
 
 
-## AI/LLM Disclosure
-
