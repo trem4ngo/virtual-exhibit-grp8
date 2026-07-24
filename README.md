@@ -16,6 +16,10 @@ Website Link: https://trem4ngo.github.io/virtual-exhibit-grp8/
 
 ### Final Submission Progress:
 
+| Phase | Description |
+| :--- | :--- |
+| **Documentation** | - Completed the documentation for final submission, covering the remaining progress, concepts, and challenges, and gave the README a final review to make sure everything was in order. |
+
 TBD
 
 ## CONCEPTS LEARNED
@@ -75,3 +79,7 @@ Our group's topic, under the category of 'How it Works', will be: How SSDs work.
 <img width="375" height="1080" alt="Mobile" src="https://github.com/user-attachments/assets/dbd4417d-4b76-4856-aad0-a298cf0cd08c" />
 
 *Video Gallery Page*
+
+
+## AI/LLM Disclosure
+
